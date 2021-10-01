@@ -4,11 +4,13 @@ package com.github.day3;
 public class Country {
 	String countryName;
 	String capital;
+	String County;
 	
 	public Country() {
 		// set the initial valuesfor instance variable
 		countryName= "USA";
 		capital = "Washington, D.C.";
+		County = "Queens";
 		
 	}
  public static void main(String[]args) {
@@ -20,6 +22,7 @@ public class Country {
 	 // PRINT the value of countryName and capital variables
 	 System.out.println(obj.countryName);
 	 System.out.println(obj.capital);
+	 System.out.println(obj.County);
 	 
 	 
  }
