@@ -11,7 +11,7 @@ public class Country {
 		countryName= "USA";
 		capital = "Washington, D.C.";
 		County = "Queens";
-		
+		County1 = "Kings";
 	}
  public static void main(String[]args) {
 	 // Creates an object of Class Country
@@ -23,6 +23,7 @@ public class Country {
 	 System.out.println(obj.countryName);
 	 System.out.println(obj.capital);
 	 System.out.println(obj.County);
+	 System.out.println(obj.County1);
 	 
 	 
  }
