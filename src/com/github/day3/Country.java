@@ -5,7 +5,7 @@ public class Country {
 	String countryName;
 	String capital;
 	String County;
-	
+	String County1;
 	public Country() {
 		// set the initial valuesfor instance variable
 		countryName= "USA";
